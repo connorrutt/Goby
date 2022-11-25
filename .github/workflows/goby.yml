@@ -29,8 +29,8 @@ jobs:
     - name: Commit and push if changed
       run: |
         git diff
-        git config --global user.email "auto"
-        git config --global user.name "auto"
+        git config --global user.email "test"
+        git config --global user.name "test"
         git add .
-        git commit --allow-empty -m $(date)
+        git commit --allow-empty -m "auto"
         git push
