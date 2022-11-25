@@ -80,17 +80,20 @@ if __name__ == '__main__':
                             continue
                         file_path = os.path.join(root, file)
                         print(file_path)
-                        with open(file_path, 'r', encoding='utf8') as f:
-                            content = f.read()
-                        if 'GobyQuery' in content and 'ScanSteps' in content:
-                            md5 = file2md5(file_path)
-                            if md5 not in old_poc:
-                                if file.endswith('.json'):
-                                    shutil.copyfile(file_path, os.path.join(
-                                        root_path, 'json', file))
-                                if file.endswith('.go'):
-                                    shutil.copyfile(file_path, os.path.join(
-                                        root_path, 'go', file))
+                        try:
+                            with open(file_path, 'r', encoding='utf8') as f:
+                                content = f.read()
+                            if 'GobyQuery' in content and 'ScanSteps' in content:
+                                md5 = file2md5(file_path)
+                                if md5 not in old_poc:
+                                    if file.endswith('.json'):
+                                        shutil.copyfile(file_path, os.path.join(
+                                            root_path, 'json', file))
+                                    if file.endswith('.go'):
+                                        shutil.copyfile(file_path, os.path.join(
+                                            root_path, 'go', file))
+                        except:
+                            traceback.print_exc()
             os.chdir(root_path)
         except:
             traceback.print_exc()
