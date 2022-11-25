@@ -79,11 +79,11 @@ if __name__ == '__main__':
                         if not file.endswith('.json') and not file.endswith('.go'):
                             continue
                         file_path = os.path.join(root, file)
-                        print(file_path)
                         try:
                             with open(file_path, 'r', encoding='utf8') as f:
                                 content = f.read()
                             if 'GobyQuery' in content and 'ScanSteps' in content:
+                                print(file_path)
                                 md5 = file2md5(file_path)
                                 if md5 not in old_poc:
                                     if file.endswith('.json'):
