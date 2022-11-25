@@ -53,12 +53,13 @@ if __name__ == '__main__':
     # 搜索代码获取项目主页
     html_urls = []
     for keyword in ['GobyQuery+language:Go', 'GobyQuery+language:Json']:
-        try:
-            rs = searchcode(keyword, page=1, per_page=100)
-            html_urls += [item['repository']['html_url']
-                          for item in rs.get('items', []) if item.get('repository', {}).get('html_url')]
-        except:
-            traceback.print_exc()
+        for i in range(1,6):
+            try:
+                rs = searchcode(keyword, page=i, per_page=100)
+                html_urls += [item['repository']['html_url']
+                            for item in rs.get('items', []) if item.get('repository', {}).get('html_url')]
+            except:
+                traceback.print_exc()
     html_urls = set(html_urls)
     for url in html_urls:
         print(url)
