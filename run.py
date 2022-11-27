@@ -53,11 +53,11 @@ if __name__ == '__main__':
     # 搜索代码获取项目主页
     html_urls = []
     for keyword in ['GobyQuery+language:Go', 'GobyQuery+language:Json']:
-        for i in range(1,11):
+        for i in range(1, 11):
             try:
                 rs = searchcode(keyword, page=i, per_page=100)
                 html_urls += [item['repository']['html_url']
-                            for item in rs.get('items', []) if item.get('repository', {}).get('html_url')]
+                              for item in rs.get('items', []) if item.get('repository', {}).get('html_url')]
             except:
                 traceback.print_exc()
     html_urls = set(html_urls)
@@ -99,3 +99,6 @@ if __name__ == '__main__':
         except:
             traceback.print_exc()
     os.chdir(root_path)
+    with open('README.md', 'w', encoding='utf8') as f:
+        f.write('# Goby POC统计\n| 文件类型 | 数量 |\n| :----:| :----: |\n| go | {} |\n|\n| json | {} |'.format(
+            len([file for file in os.listdir('go') if file.endswith('.go')]), len([file for file in os.listdir('json') if file.endswith('.json')])))
