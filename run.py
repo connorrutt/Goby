@@ -100,5 +100,5 @@ if __name__ == '__main__':
             traceback.print_exc()
     os.chdir(root_path)
     with open('README.md', 'w', encoding='utf8') as f:
-        f.write('# Goby POC统计\n| 文件类型 | 数量 |\n| :----:| :----: |\n| .go | {} |\n|\n| .json | {} |'.format(
+        f.write('# Goby POC统计\n| 文件类型 | 数量 |\n| :----:| :----: |\n| .go | {} |\n| .json | {} |'.format(
             len([file for file in os.listdir('go') if file.endswith('.go')]), len([file for file in os.listdir('json') if file.endswith('.json')])))
