@@ -51,9 +51,9 @@ if __name__ == '__main__':
     root_path = os.path.dirname(os.path.abspath(__file__))
     print(root_path)
     # 搜索代码获取项目主页
-    html_urls = []
+    html_urls = ["https://github.com/helloexp/0day","https://github.com/Micr067/0day","https://github.com/fei9747/0day-1","https://github.com/merlinepedra/ODAY","https://github.com/takeboy/https-github.com-Lucifer1993-0day","https://github.com/wukong-bin/PeiQi-0day","https://github.com/jusk9527/GobyPoc","https://github.com/GGStudy-DDUp/0day","https://github.com/sunpeak/wiki","https://github.com/terry494/fengchenzxc.github.io","https://github.com/n0tfund404/nday","https://github.com/yuag/goby","https://github.com/york-cmd/CVE-2022-22947-goby","https://github.com/H4ckTh3W0r1d/Goby_POC","https://github.com/AnonymouID/POC","https://github.com/luck-ying/Library-POC","https://github.com/cckuailong/vulbase","https://github.com/xanszZZ/pocsuite3-poc","https://github.com/ChrR0m4n/Sword-Framework","https://github.com/aetkrad/goby_poc","https://github.com/k3vi-07/goby-exp","https://github.com/H4K6/Goby-POC","https://github.com/wgpsec/peiqi-wiki","https://github.com/XingHuoLiaoYuanBaby/goby_poc","https://github.com/shifeige/goby-poc"]
     for keyword in ['GobyQuery+language:Go', 'GobyQuery+language:Json']:
-        for i in range(1, 11):
+        for i in range(1, 6):
             try:
                 rs = searchcode(keyword, page=i, per_page=100)
                 html_urls += [item['repository']['html_url']
