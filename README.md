@@ -1,7 +1,52 @@
-## goby poc (共926个) 最近一次检查时间 2022-12-03 10:14:29
+## goby poc (共926个) 最近一次检查时间 2022-12-03 15:12:57
 ### 收集记录
 | 文件名称 | 收录时间 |
 | :----| :---- |
+| [TopSec_TopACM_Remote_Command_Execution.go](https://github.com/dzxindex/goby_poc) | 2022-12-03 15:12:50 |
+| [OpenSNS_RCE.json](https://github.com/MY0723/goby-poc) | 2022-12-03 15:12:29 |
+| [IRDM4000_Smart_station_Unauthorized_access.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Konga_Default_JWT_KEY.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Weaver_OA_8_SQL_injection.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Consul_Rexec_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [SonarQube_unauth_CVE_2020_27986.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Cacti_Weathermap_File_Write.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Datang_AC_Default_Password.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Samsung_WLAN_AP_WEA453e_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Apache_Airflow_Unauthorized.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Alibaba_Nacos_Default_password.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [IceWarp_WebClient_basic_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [H3C_IMC_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [VMware_vCenter_v7.0.2_Arbitrary_File_Read.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Active_UC_index.action_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [360_TianQing_ccid_SQL_injectable.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Discuz_RCE_WOOYUN_2010_080723.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [RuoYi_Druid_Unauthorized_access.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Apache_Kylin_Unauthorized_configuration_disclosure.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Alibaba_Nacos_Add_user_not_authorized.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [fahuo100_sql_injection_CNVD_2021_30193.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [D-Link AC集中管理系统默认弱口令.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [GitLab_SSRF_CVE_2021_22214.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Weblogic SSRF漏洞 CVE-2014-4210.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Discuz_v72_SQLI.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [ClickHouse_SQLI.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [YAPI_RCE.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Apache_Solr_Arbitrary_File_Read.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [360_Tianqing_database_information_disclosure.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [FineReport_v9_Arbitrary_File_Overwrite.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Jitong_EWEBS_phpinfo_leak.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Apache_Kylin_Console_Default_password.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [alibaba_canal_default_password.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Security_Devices_Hardcoded_Password.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Discuz_Wechat_Plugins_Unauth.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [VENGD_Arbitrary_File_Upload.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Fastmeeting_Arbitrary_File_Read.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Docker_Registry_API_Unauth.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [DedeCMS_Carbuyaction_FileInclude.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Aspcms_Backend_Leak.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Lanproxy_Directory_traversal_CVE_2021_3019.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
+| [Apache Solr任意文件读取漏洞.json](https://github.com/shifeige/goby-poc) | 2022-12-03 15:12:27 |
 | [H3C-IMC-dynamiccontent.properties.xhtm-RCE.json](https://github.com/cqr-cryeye-forks/goby-pocs) | 2022-12-03 10:13:52 |
 | [Oracle-Weblogic-Server-Deserialization-RCE(CVE-2018-2628).json](https://github.com/cqr-cryeye-forks/goby-pocs) | 2022-12-03 10:13:52 |
 | [tongda-OA-file-include-getshell.json](https://github.com/cqr-cryeye-forks/goby-pocs) | 2022-12-03 10:13:52 |
@@ -482,50 +527,6 @@
 | [SaltStack-RCE-(CVE-2020-11651).json](https://github.com/cqr-cryeye-forks/goby-pocs) | 2022-12-03 10:13:52 |
 | [╠┌┤∩┬╖╙╔╞≈-setusbunload-├ⁿ┴ε╓┤╨╨┬⌐╢┤-ú¿CVE-2020-10987ú⌐.json](https://github.com/cqr-cryeye-forks/goby-pocs) | 2022-12-03 10:13:52 |
 | [poc.go](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [IRDM4000_Smart_station_Unauthorized_access.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Konga_Default_JWT_KEY.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Weaver_OA_8_SQL_injection.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Consul_Rexec_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Cacti_Weathermap_File_Write.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Datang_AC_Default_Password.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Samsung_WLAN_AP_WEA453e_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Apache_Airflow_Unauthorized.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Alibaba_Nacos_Default_password.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [IceWarp_WebClient_basic_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [H3C_IMC_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [VMware_vCenter_v7.0.2_Arbitrary_File_Read.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Active_UC_index.action_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [360_TianQing_ccid_SQL_injectable.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Discuz_RCE_WOOYUN_2010_080723.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [RuoYi_Druid_Unauthorized_access.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Apache_Kylin_Unauthorized_configuration_disclosure.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Alibaba_Nacos_Add_user_not_authorized.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [fahuo100_sql_injection_CNVD_2021_30193.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [D-Link AC集中管理系统默认弱口令.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [GitLab_SSRF_CVE_2021_22214.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Weblogic SSRF漏洞 CVE-2014-4210.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Discuz_v72_SQLI.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [ClickHouse_SQLI.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [YAPI_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Apache_Solr_Arbitrary_File_Read.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [360_Tianqing_database_information_disclosure.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [FineReport_v9_Arbitrary_File_Overwrite.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Jitong_EWEBS_phpinfo_leak.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Apache_Kylin_Console_Default_password.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [alibaba_canal_default_password.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Security_Devices_Hardcoded_Password.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Discuz_Wechat_Plugins_Unauth.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [OpenSNS_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [VENGD_Arbitrary_File_Upload.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Fastmeeting_Arbitrary_File_Read.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Docker_Registry_API_Unauth.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [DedeCMS_Carbuyaction_FileInclude.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Aspcms_Backend_Leak.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Lanproxy_Directory_traversal_CVE_2021_3019.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [Apache Solr任意文件读取漏洞.json](https://github.com/hanc00l/pocGoby2Xray) | 2022-12-03 10:13:46 |
-| [TopSec_TopACM_Remote_Command_Execution.go](https://github.com/MY0723/goby-poc) | 2022-12-03 10:13:23 |
 | [nsfocus_resourse.php_arbitrary_file_upload_vulnerability.go](https://github.com/MY0723/goby-poc) | 2022-12-03 10:13:23 |
 | [Spring_Framework_Data_Binding_Rules_Spring4Shell_RCE_CVE_2022_22965.json](https://github.com/MY0723/goby-poc) | 2022-12-03 10:13:23 |
 | [DotCMS_Arbitrary_File_Upload_CVE_2022_26352.json](https://github.com/MY0723/goby-poc) | 2022-12-03 10:13:23 |
@@ -552,7 +553,6 @@
 | [Apache_SkyWalking_Log4shell_CVE-2021-44228.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
 | [Finetree_5MP_Network_Camera_Default_Login_unauthorized_user_add.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
 | [Coremail_Config_Disclosure.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
-| [SonarQube_unauth_CVE_2020_27986.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
 | [BigAnt_Server_v5.6.06_Path_Traversal_CVE_2022_23347.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
 | [CraftCMS_SEOmatic_Server-Side_Template_Injection_CVE-2020-9597.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
 | [UniFi_Network_Log4shell_CVE-2021-44228.json](https://github.com/dzxindex/goby_poc) | 2022-12-03 10:12:56 |
