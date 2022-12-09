@@ -4414,224 +4414,224 @@
         "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
         "up_time": "2022-12-07 05:11:20"
     },
-    "c6c5fedc7c88abf1a2cfddbaff8efac6": {
+    "6dea78c8d8ba91f0bc887bd73eb295ef": {
         "name": "IRDM4000_Smart_station_Unauthorized_access.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "c601cdf6b9525189c46546345b6a5490": {
-        "name": "Konga_Default_JWT_KEY.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "bbaf1ced87c3191fa2b012a5e970ff0c": {
-        "name": "Weaver_OA_8_SQL_injection.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "794ded60e1908b94f0c2fb4be4a94888": {
-        "name": "Consul_Rexec_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "052e2435596cb7527429c86567f8e9a6": {
-        "name": "SonarQube_unauth_CVE_2020_27986.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "8da550761f0927ff70ac3cd356465c39": {
-        "name": "Cacti_Weathermap_File_Write.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "2d722f3711bed82f1aab6bf461ada0c8": {
-        "name": "Datang_AC_Default_Password.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "b527472fff231bf0e7aeae50fe8b242c": {
-        "name": "Samsung_WLAN_AP_WEA453e_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "b58099c3647c84c40b42325f3aabbc12": {
-        "name": "Apache_Airflow_Unauthorized.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "1e9e249e481b21d43c469d181ed00553": {
-        "name": "Alibaba_Nacos_Default_password.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "a7fd70ffa63620d1983a7887536123db": {
-        "name": "IceWarp_WebClient_basic_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "abe372d00dc4e839caca638b9590811f": {
-        "name": "H3C_IMC_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "0a8ef5877f99d00bba86c1ea1da836c1": {
-        "name": "VMware_vCenter_v7.0.2_Arbitrary_File_Read.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "d8e27b2b277f389e71160c24891928de": {
-        "name": "Active_UC_index.action_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "419ca701fd5908a481be35c7dafa04d6": {
-        "name": "360_TianQing_ccid_SQL_injectable.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "bfe46a6dd827d4670fedeb9c16b0b54d": {
-        "name": "VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "3e1ea1cdef46fe6235c276facf485393": {
-        "name": "Discuz_RCE_WOOYUN_2010_080723.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "9d981f8b0417fd50aa8f9bc9ee7ca373": {
-        "name": "RuoYi_Druid_Unauthorized_access.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "1b847a7f287772630afe7c370728617b": {
-        "name": "Apache_Kylin_Unauthorized_configuration_disclosure.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "3c329a985e25a54295578b89158dd839": {
-        "name": "Alibaba_Nacos_Add_user_not_authorized.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "0eda0b952696fa54fbadf5294083d6f3": {
-        "name": "fahuo100_sql_injection_CNVD_2021_30193.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "317dd525d334af0bcd2097c497890f92": {
-        "name": "D-Link AC集中管理系统默认弱口令.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "72c466bec3b736c919892add87655b8d": {
-        "name": "GitLab_SSRF_CVE_2021_22214.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "b4be4d0f0098318a6f6d208bc8b923e4": {
-        "name": "Weblogic SSRF漏洞 CVE-2014-4210.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "84ce0009738d626d9a6831a171551168": {
-        "name": "Discuz_v72_SQLI.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "af294cc06e656f74d5187fdfb7318d71": {
-        "name": "ClickHouse_SQLI.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "36eb8fd5c05ea97e600f827c3352d17d": {
-        "name": "YAPI_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "7ec14a319d9a1dca520a0c6210024651": {
-        "name": "Apache_Solr_Arbitrary_File_Read.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "6ed66763be3ae015ac1c193cf11640da": {
-        "name": "360_Tianqing_database_information_disclosure.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "7ea74096ddc6dc0ff093bf3ae514e91e": {
-        "name": "FineReport_v9_Arbitrary_File_Overwrite.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "aa79054077db9a86563ef663875fa86b": {
-        "name": "Jitong_EWEBS_phpinfo_leak.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "b36783e04935b9db1d86db2f04d2474d": {
-        "name": "Apache_Kylin_Console_Default_password.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "8a6918948a885c082f7b2b04e263639f": {
-        "name": "alibaba_canal_default_password.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "43519974176f86edc74013c4e8d8e5da": {
-        "name": "Security_Devices_Hardcoded_Password.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "cb4543acb4ae9794fa9836763066a6ac": {
-        "name": "Discuz_Wechat_Plugins_Unauth.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "c588175ec562fcaaa085584a8844e27b": {
-        "name": "OpenSNS_RCE.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "585448b82814ebdbf3ec6deef9a3ffb7": {
-        "name": "Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "77888c4b4293e116919343c50e638668": {
-        "name": "VENGD_Arbitrary_File_Upload.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "d222a0d69992713c672fcad9801c8d84": {
-        "name": "Fastmeeting_Arbitrary_File_Read.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "1467fd95f43e208cb789a3736aecd97a": {
-        "name": "Docker_Registry_API_Unauth.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "7a9346806759d9e4b567e78bc1e8085b": {
-        "name": "DedeCMS_Carbuyaction_FileInclude.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "bfb28ce6fadd985b8a103e7a19541a87": {
-        "name": "Aspcms_Backend_Leak.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "1e71b4b5b2b48b4cc9864db3344f0d3a": {
-        "name": "Lanproxy_Directory_traversal_CVE_2021_3019.json",
-        "from": "https://github.com/hanc00l/pocGoby2Xray",
-        "up_time": "2022-12-08 05:11:25"
-    },
-    "b13bf9bb26c5e658b67e1b7528ab0ab7": {
-        "name": "TopSec_TopACM_Remote_Command_Execution.go",
         "from": "https://github.com/MY0723/goby-poc",
-        "up_time": "2022-12-08 05:11:50"
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "f8c8d51dd85cbcd8e8650740e33d1dcb": {
+        "name": "Konga_Default_JWT_KEY.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "98b7042faeb4daf3592e806c2ac74192": {
+        "name": "Weaver_OA_8_SQL_injection.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "08b031072a72e2b46ae3e235df25a801": {
+        "name": "Consul_Rexec_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "1a7e06ba6dcc53e0e36d805b05e83ce5": {
+        "name": "SonarQube_unauth_CVE_2020_27986.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "cc7f0ffe4383eee228e93b1636ebe171": {
+        "name": "Cacti_Weathermap_File_Write.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "66f76030e46466c8a9a462b9f88dc975": {
+        "name": "Datang_AC_Default_Password.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "b63057bc16c1786d977aa3a26105e06c": {
+        "name": "Samsung_WLAN_AP_WEA453e_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "0597cec0ccdd0a156026d964c3f25b7c": {
+        "name": "Apache_Airflow_Unauthorized.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "ca3d46ede02650c9ba9586b29ce222a4": {
+        "name": "Alibaba_Nacos_Default_password.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "94774b46b1d0f2ff079afa34907ffcaf": {
+        "name": "IceWarp_WebClient_basic_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "f09424193e955379c851e83f851eeda0": {
+        "name": "H3C_IMC_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "9ca8ec259b496d345b3a085d6498b547": {
+        "name": "VMware_vCenter_v7.0.2_Arbitrary_File_Read.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "80beec9b49c6777a9eaddfaa7d71ed34": {
+        "name": "Active_UC_index.action_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "20141865624309400ca7b8a74ae478e7": {
+        "name": "360_TianQing_ccid_SQL_injectable.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "9f14c46c36d56caebf1570313943b59e": {
+        "name": "VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "f47dd63be137a37d0d20899d965fffc7": {
+        "name": "Discuz_RCE_WOOYUN_2010_080723.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "ff2753c972be556f5eaefa65e77d799d": {
+        "name": "RuoYi_Druid_Unauthorized_access.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "99ccd17d5280a3a26d4c58ac41f7673c": {
+        "name": "Apache_Kylin_Unauthorized_configuration_disclosure.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "ae90695ee3f1d78e5962e49fe353704c": {
+        "name": "Alibaba_Nacos_Add_user_not_authorized.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "b75de9885a0408124f4e2cb9e1d787c0": {
+        "name": "fahuo100_sql_injection_CNVD_2021_30193.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "9bd77e677491dceb48b568d98e3df98b": {
+        "name": "D-Link AC集中管理系统默认弱口令.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "9c9785c14b394e6076bdaab5303ed81e": {
+        "name": "GitLab_SSRF_CVE_2021_22214.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "359d4c25079517dc3188373cd68fd275": {
+        "name": "Weblogic SSRF漏洞 CVE-2014-4210.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "bfa6efd7ead875c2a48f41be84f4ad47": {
+        "name": "Discuz_v72_SQLI.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "11a8de25bc0595059648ef5f52e29304": {
+        "name": "ClickHouse_SQLI.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "b5f57811f33627529f752525d94eeb2d": {
+        "name": "YAPI_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "ee14f79fa667bcfb7e84fd3c9654b74d": {
+        "name": "Apache_Solr_Arbitrary_File_Read.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "7ae3917c305f6593ceda08644ba4ff3e": {
+        "name": "360_Tianqing_database_information_disclosure.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "9df6453318768e71b7f0993462e049be": {
+        "name": "FineReport_v9_Arbitrary_File_Overwrite.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "ed6c2907144a0ecb947c12d7e876caf5": {
+        "name": "Jitong_EWEBS_phpinfo_leak.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "a77b8d6abfc9fcc92a108da7ef159676": {
+        "name": "Apache_Kylin_Console_Default_password.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "85eb916f369b887201955dbd924638e7": {
+        "name": "alibaba_canal_default_password.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "831b98b66a3924c35f6dddd1fef5b0c9": {
+        "name": "Security_Devices_Hardcoded_Password.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "1526e366829ad6c720e8b74e9c600fc6": {
+        "name": "Discuz_Wechat_Plugins_Unauth.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "98554ee837ff40cbe0c22afd4837c1c1": {
+        "name": "OpenSNS_RCE.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "1e155dce32d56dfcf0e67129ad5941f2": {
+        "name": "Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "6ae0f24101cd8b70060fe677eff836a7": {
+        "name": "VENGD_Arbitrary_File_Upload.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "f58e6e2d8d3e8d73a3638928c656f8a5": {
+        "name": "Fastmeeting_Arbitrary_File_Read.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "57bccaa5bd9e0a4d8c86b6d03280c6c4": {
+        "name": "Docker_Registry_API_Unauth.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "d28fd0d9a4a5023651e24d1b03527ec1": {
+        "name": "DedeCMS_Carbuyaction_FileInclude.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "76a509da91e728c8e80ed4fdb09fdb07": {
+        "name": "Aspcms_Backend_Leak.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "d49a512bc2f45ca96a88697b44a88e02": {
+        "name": "Lanproxy_Directory_traversal_CVE_2021_3019.json",
+        "from": "https://github.com/MY0723/goby-poc",
+        "up_time": "2022-12-09 05:10:48"
+    },
+    "bd9434eaf174ef9bc754c29f99dbbb4f": {
+        "name": "TopSec_TopACM_Remote_Command_Execution.go",
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2022-12-09 05:11:24"
     }
 }
