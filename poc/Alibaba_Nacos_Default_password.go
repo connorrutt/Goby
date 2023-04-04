@@ -10,7 +10,7 @@ func init() {
   "Description": "",
   "Product": "Nacos",
   "Homepage": "",
-  "DisclosureDate": "2023-03-17",
+  "DisclosureDate": null,
   "Author": "清晨",
   "FofaQuery": "title=\"Nacos\"",
   "GobyQuery": "title=\"Nacos\"",

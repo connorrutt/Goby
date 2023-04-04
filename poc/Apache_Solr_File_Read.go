@@ -10,10 +10,10 @@ func init() {
   "Description": "",
   "Product": "",
   "Homepage": "",
-  "DisclosureDate": "2023-03-17",
+  "DisclosureDate": null,
   "Author": "清晨",
-  "FofaQuery": "app=\"APACHE-Solr\"",
-  "GobyQuery": "app=\"APACHE-Solr\"",
+  "FofaQuery": "app=\"APACHE-Solr\" || product=\"APACHE-Solr\"",
+  "GobyQuery": "app=\"APACHE-Solr\" || product=\"APACHE-Solr\"",
   "Level": "3",
   "Impact": "",
   "Recommendation": "",
@@ -117,7 +117,7 @@ func init() {
             "type": "item",
             "variable": "$body",
             "operation": "contains",
-            "value": "root",
+            "value": "root:",
             "bz": ""
           }
         ]

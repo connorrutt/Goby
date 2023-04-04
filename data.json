@@ -4449,229 +4449,1109 @@
         "from": "https://github.com/cvedb/goscan",
         "up_time": "2023-02-16 05:11:19"
     },
-    "0542b0a07b7d45ef8e52ba7025909cd3": {
+    "87adadd634cc919ad6b5e7b4842bb35e": {
+        "name": "Active_UC_index.action_RCE.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "e646ceb6b2a9ec480bbd4623d4325f32": {
+        "name": "Lanproxy_Directory_traversal_CVE_2021_3019.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "30e31bbcb3e3a1c3e726c8712dc9a413": {
+        "name": "Jitong_EWEBS_phpinfo_leak.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "c11dc72c6b76260ea064ec6d065c2c4e": {
+        "name": "OpenSNS_RCE.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "5e17ce4d593835c34fc2ed48eb6ff481": {
+        "name": "IceWarp_WebClient_basic_RCE.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "536988b739b6d41934e36855a7f359ee": {
+        "name": "Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "49963f2392dff43d6ba9478a39ef9b54": {
+        "name": "GitLab_SSRF_CVE_2021_22214.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "f05c778d0dec965304b0652b2ecadc46": {
+        "name": "IRDM4000_Smart_station_Unauthorized_access.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "b69a1315894702869a7e904234655abf": {
+        "name": "H3C_IMC_RCE.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "3e8c98edb79eb77daa6b45d8d70f03a3": {
+        "name": "fahuo100_sql_injection_CNVD_2021_30193.json",
+        "from": "https://github.com/luck-ying/Library-POC",
+        "up_time": "2023-04-04 05:09:54"
+    },
+    "c67c69a61cb2d0a2116338add2b80fe6": {
+        "name": "zentao_bypass_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "8f541145c9ec2ccc33b5dc3ff7a319de": {
+        "name": "Citrix_XenMobile_file_read_CVE_2020_8209.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "13cc55fe18fee91fc4b2fe80aaabed07": {
+        "name": "Kyan_Network_Monitoring_Device_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1ff32c9ddb8a8edd0435d9f11715db4c": {
+        "name": "Apache_Cocoon_XML_injection_CVE_2020_11991.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "30c05b3ee668e8ab0de91bd3fba309ee": {
+        "name": "jindie_OA_Apusic_dir_list.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "fe220ed4b3d2082f9d4d2b7a0b248212": {
+        "name": "maipu_ISG1000_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "f76adc2ffd792c7e6a9cd41b686b330f": {
+        "name": "Apache_ShenYu_dashboardUser_password_Disclosure_CVE_2021_37580.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "05dec5dacde1c0d1d9be55d72b851cf3": {
+        "name": "Zoho_ManageEngine_SAML_rce_CVE_2022_47966.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a2948ea63830b875df9b78878e4910c2": {
+        "name": "Selea_OCR_ANPR_get_file.php_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "95ced8aef7f3ed7353c00da37ee62da7": {
+        "name": "Roxy_Wi_rce_CVE_2022_31137.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e94907fd120ffe4a2d4837b3b970cd28": {
+        "name": "Atlassian_Confluence_OGNL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "f780cf0233c44832117ef617a87fab18": {
+        "name": "imo_get_file_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c136c670b09efd4a4471694699167e42": {
+        "name": "Jiuqi_Financial_Statements_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "48e124a185dac6ed8489493715ead7f1": {
+        "name": "D_Link_DCS_password_disclosure_CVE_2020_25078.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e46f1cd96192f7bd0f99eb0617f8aa97": {
+        "name": "Casdoor_get_organizations_SQL_injection_CVE_2022_24124.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c181ef0fc248ef1ee958aa44031abfb9": {
+        "name": "Selea_OCR_ANPR_SeleaCamera_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "dfe111615c8d2d3ff3652c68e4019e24": {
+        "name": "tongda_OA_v11.9_getdata_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "dc0d13586ce5cdecd9810d6db41d1560": {
+        "name": "NetMizer_logsystem_cmd.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "86ea6660858410dde0a442dc7541a2ca": {
+        "name": "CMA_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "bde00b63eeec7d7a637eec1cf0e560e0": {
+        "name": "NS_ASG_cert_download.php_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "601e06d2b419118ac4696e242f4980e5": {
+        "name": "Atlassian_Confluence_file_read_CVE_2019_3396.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1a046ba4b06198b7541f8e388c9531e7": {
+        "name": "yonyou_FE_dir_list.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a3eee0fbed82cd9be1ce4a86c52022d1": {
+        "name": "MinIO_information_disclosure_CVE_2023_28432_.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7eeb504508d5e148ab87e7d9d6c1d67c": {
+        "name": "wanhu_OA_download_old.jsp_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "86fe9c32a583392b151dfda2adf33a36": {
+        "name": "Thinkphp5_Remote_Code_Execution_Vulnerability.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4a4009e87353459dc94e5fa8276c1962": {
+        "name": "xidite_Wi_Fi_Web_Unauthorized_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4254d4bd142b134a874e05b7b0e01612": {
+        "name": "H3C_IMC_rce_CNVD_2021_39067.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "15a44e7834b7f94be2439e4347e6e53b": {
+        "name": "AspCMS_commentList.asp_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ce6e0358e443029c5e220d9928a07615": {
+        "name": "zhiyuan_OA_wpsAssistServlet_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "07e97b679836ed1f4a6b064b0ba42f8f": {
+        "name": "xiaomi_route_file_read_CVE_2019_18371.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "aec754b01029d6c20c7e2f43aee02b34": {
+        "name": "ezOFFICE_OA_DownloadServlet_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "044021fef63e8b9d8288745c6afbba8c": {
+        "name": "IceWarp_WebClient_basic_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "5a907e33abeebd3c08e57de066065b4e": {
+        "name": "Evolucare_Ecsimaging_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "153675d54134a47313314300d69c80ae": {
+        "name": "Jeecg_boot_unauthorized_SQL_Injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3c3d691a29c2e87619fa2387da3769cf": {
+        "name": "TDengine_Management_Default_Password.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a2bb4a79ae449afe285d81851f522631": {
+        "name": "shiziyu_CMS_image_upload.php_file_upload.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "8b1194594b4442fe9ac20b4c1b73fc40": {
+        "name": "ZeroVision_Technology_H5S_video_platform_GetUserInfo_CNVD_2020_67113.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "180c46d8db9978dcdbf467fc3262af8c": {
+        "name": "SonarQube_Information_leakage_CVE_2020_27986.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a9b0d1f34823d6730a9f3d403c9ab0b3": {
+        "name": "ioffice_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "cbdeee8c347adb1bfbbdf1489c14ccdb": {
+        "name": "CmsEasy_crossall_act.php_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0bea634405d736e303901c0669679e94": {
         "name": "Joomla_Rest_API__Unauthorized.go",
         "from": "https://github.com/qingchenhh/qc_poc",
-        "up_time": "2023-03-17 05:12:42"
+        "up_time": "2023-04-04 05:10:07"
     },
-    "d40759962e87262cf758c731a6c47fe5": {
-        "name": "e_cology9_SQL_injection.go",
+    "b0e5851d68013e5f984170fdf0054016": {
+        "name": "ezOFFICE_OA_downloadhttp.jsp_download_file.go",
         "from": "https://github.com/qingchenhh/qc_poc",
-        "up_time": "2023-03-17 05:12:42"
+        "up_time": "2023-04-04 05:10:07"
     },
-    "0c08c81622022768c2440eac655fbc3d": {
-        "name": "yonyou_NC_BeanShell_RCE.go",
+    "b323bec48e02ad741ab7120b9acb4134": {
+        "name": "HTDL_OA8000_WorkFlowService_SQL_injection.go",
         "from": "https://github.com/qingchenhh/qc_poc",
-        "up_time": "2023-03-18 05:10:04"
+        "up_time": "2023-04-04 05:10:07"
     },
-    "2b44d68d9ad32fbb1d44ad9aae1fe54f": {
-        "name": "Alibaba_Nacos_Default_password.go",
+    "00a7b440837303bb66f0911d5a2579a8": {
+        "name": "zhiyuan_OA_webmail.do_download_file_CNVD_2020_62422.go",
         "from": "https://github.com/qingchenhh/qc_poc",
-        "up_time": "2023-03-18 05:10:04"
+        "up_time": "2023-04-04 05:10:07"
     },
-    "885772a015a908b1d7b8d3ad4aaf4379": {
+    "0533c2635247d078034e4aa9f138cccd": {
+        "name": "DocCMS_keyword_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "438926323a022bbaee04c4faa9f42058": {
+        "name": "Huiwen_Library_System_Information_Leakage.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a480708d7c140c526c3798964b2e7226": {
+        "name": "VoIPmonitor_rce_CVE_2021_30461.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "95d4627cb5b719a3624c8df2fe485afc": {
+        "name": "tongda_OA_v11.8_getway.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "9e0118e13012a45b552ee87735f419e4": {
+        "name": "SANGFOR_AD_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3889af2757369dc0a715d59615dc8cce": {
+        "name": "Lvmeng_UTS_comprehensive_threat_probe_information_leakage_login_bypass.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "6b0a975321823b9108429fab1501ae56": {
+        "name": "kkFileView_getCorsFile_file_read_CVE_2021_43734.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "372542d638c72a63be4209d4dd0e49a6": {
+        "name": "zentao_16.5_router.class.php_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "10f31a555cf768d4e8d675a6129dcd53": {
+        "name": "tongda_OA_v11.6_report_bi.func.php_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "22275fc425e51f67d72aae2d4cd07cad": {
+        "name": "JX_OA_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "9e4e18b5921f6d934a79cf5c9366b3b6": {
+        "name": "Sapido_Routers_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "6b02fcd740df92a1994942d8b2f96d81": {
+        "name": "TOTOLink_download.cgi_rce_CVE_2022_25084.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "72b907bf624740116110c1da51b26a29": {
+        "name": "WeiPHP5.0_bind_follow_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ae8870ef962238395ef57ff0131bd602": {
+        "name": "HIKVISION_Video_Coding_Device_Access_Gateway_Arbitrary_File_Download.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "39149ef68b5ca356a9c1276e4969d0b8": {
+        "name": "Alibaba_Canal_config_Information_leakage.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3d04e6fc576825a73c72fddfb155f25d": {
+        "name": "LotWan_static_arp_del.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "27da27d3cfd58c8f97bf39bc584804af": {
+        "name": "xionghai_cms_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "622121c9743e709b6c13b5cf4b126fe2": {
+        "name": "ThinkPHP5_SQL_Injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e503f5a3b72afb990d2b3ee19896b80d": {
+        "name": "Kingdee_EAS_dir_list.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ce59e6f7ea744539509b28a801e7070e": {
+        "name": "WordPress_Duplicator_file_read_CVE_2020_11738.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "020915d1beec32e71b559a868326ad94": {
+        "name": "Atlassian_Confluence_doenterpagevariables.action_rce_CVE_2021_26084.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a9e429ca4569aadf3b4b145758f24de0": {
+        "name": "apache_Tomcat_Default_Password.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "8f0c4cf1dc090c726f6999fe475e8f7e": {
+        "name": "Teleport_Fortress_Do_login_Arbitrary_User_Login_Vulnerability.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "5b21a43c00f7825590db8791b1933671": {
+        "name": "zentao_11.6_api_getModel_api_getMethod_filePath_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "dac1892b965518c493e1374381d918bf": {
+        "name": "RabbitMQ_Management_Default_Password.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "33f174c050f18cbe3dd2ec3d19a3526d": {
+        "name": "Telos_Alliance_Omnia_MPX_Node_Information_disclosure_CVE_2022_36642_.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "d57f3eecb922bd44f3e28ffc4929321d": {
+        "name": "SmartOA_EmailDownload.ashx_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4265766217c48447c44dea677e36d659": {
+        "name": "zhiyuan_OA_A6_setextno.jsp_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1b0a2fa35e8ea43dfab8f7f72e31cade": {
+        "name": "Tenda_W15E_RouterCfm.cfg_config_Disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "51f6cc6a271fba3141dd761a50f8904d": {
+        "name": "WiseGiga_NAS_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "d57557d8473707fa91b89847629412f3": {
+        "name": "PbootCMS_search_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1d39d1f1368002c322433e84e906bb34": {
+        "name": "iAudit_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0d316d7cb4d5f80fabeb3c8f8853a0da": {
+        "name": "PbootCMS_ext_price_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ef16dd72282c9b8b3dce87329a25541e": {
+        "name": "Apache_Kylin_config_Unauthorized_Configuration_Disclosure_CVE_2020_13937.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "783d4b81c10f1143013748cfb12dbef7": {
+        "name": "C_Lodop_print_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "927e7f9dcccc18a4c13d65f3099a67ae": {
+        "name": "HIKVISION_Streaming_Media_Management_Server_user.xml_password_disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a5071936afe3ba492b2a9ad957fd400f": {
+        "name": "Huawei_HG659_lib_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "89e6893d685cee2e64910adca088fe7a": {
+        "name": "Dogtag_PKI_XML_injection_CVE_2022_2414.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1db4decf3d07ba40dde3459b000f0de4": {
+        "name": "Fumasoft_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "86ac2887493f8798b19410a105f8095d": {
+        "name": "BSPHP_Unauthorized.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "307d4733c84c429dffa3f88e0fbe1ec6": {
+        "name": "dbappsecurity_WEB_Application_Firewall_report.php_Arbitrary_User_Login_Vulnerability.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "2cb83b302f8517dc0c7080d1c797c680": {
+        "name": "TamronOS_IPTV_create_user.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "2cedc5e0bb3691d0285bc1610dc6fed9": {
+        "name": "qianxin_wangkang_NGFW_router_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "19fed2127a142616d8f9bf025437c69e": {
+        "name": "Metabase_geojson_file_read_CVE_2021_41277.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ec63745cd3d72621370294bdaff58fa6": {
+        "name": "Franklin_Fueling_Systems_file_read_CVE_2021_46417.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "93f77917eb6bdccfa59ebf813711fb94": {
+        "name": "bohuawanglong_FW_cmd.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "112d3cb04f3fb0f274182f5ab5608939": {
+        "name": "eGroupWare_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "63f998b9fe017211a27b7a28c657965d": {
+        "name": "MKdocs_file_read_CVE_2021_40978.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "69c748932034b0cc3a45b1924995362f": {
+        "name": "Intelbras_Wireless_Password_Disclosure_CVE_2021_3017.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "770b462b865ba7eb4c8d5d21884c1165": {
+        "name": "Evolucare_Ecsimaging_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "9663344f643252a72a92bb75ae13f5de": {
+        "name": "Feng_Office_3.7.0.5_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7cd4bad9d5cd890a7aa22e15d5de4592": {
+        "name": "LotWan_static_arp.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4df41d81a0733b75717a247c9a7e7959": {
+        "name": "yimi_OA_getfile.jsp_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "6238f76483c95bdd51b068b5dea2b6d6": {
+        "name": "Yeastar_TG400_GSM_dir_list_CVE_2021_27328.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3311d4fe98d150c8f48be5588824f0c6": {
+        "name": "OpenSNS_Application_ShareController.class.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4c2371503c2f8228ceacc4bfc2f8dc8a": {
+        "name": "Kyan_Network_Monitoring_Device_time.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ffad55b1f65b71f1950933e88f9c5891": {
+        "name": "JT_EWEBS_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "32cde68063481ca393474c8d9990d0e3": {
+        "name": "Zyxel_NBG2105_Authentication_Bypass_CVE_2021_3297.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "be31ffaabdfd7822f0cd2e5ceec25a73": {
+        "name": "Adobe_ColdFusion_upload.cfm_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a9de2063574e63580f1a6c558a794e4c": {
+        "name": "KYAN_Network_Monitoring_Device_Hosts_Account_Password_Disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "73b80c931a5d9cfeb45fd75281f72d8a": {
         "name": "Apache_Solr_File_Read.go",
         "from": "https://github.com/qingchenhh/qc_poc",
-        "up_time": "2023-03-20 05:10:55"
+        "up_time": "2023-04-04 05:10:07"
     },
-    "698f8ae7a4aff0669896491d060b9d0f": {
+    "ce92568615504b37630f26b488c04aef": {
+        "name": "Spring_Cloud_Gateway_RCE_CVE_2022_22947.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "60f5e7b2a5319fdca7dbcdd7943ed322": {
+        "name": "tongda_OA_v11.8_api.ali.php_file_upload.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "2fe708db1b96e8afc2850647c0020ced": {
+        "name": "Webgrind_file_read_CVE_2018_12909.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a2c0048bf0be6094b0b77122e14aa2f4": {
+        "name": "MagicFlow_FW_main.xp_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ca02ee0c1deaff6659ed1ff6e3e870d4": {
+        "name": "zhiyuan_OA_A6_createMysql.jsp_Database_information_disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "cae3fdccd7747ce62855cf61e888f60a": {
+        "name": "ShowDoc_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7856d0d834550386a3f95a03d4559720": {
+        "name": "bohuawanglong_FW_users.xml_Unauthorized.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "367b05dcf90e2e601c21d675555f440c": {
+        "name": "TopSec_LB_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "d40bdef6d5bb48b63ddcf6d298e80f11": {
+        "name": "Node_RED_ui_base_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "72ee2ac5b82f1b8e84e43b43c1a30b2f": {
+        "name": "D_Link_ShareCenter_DNS_320_system_mgr.cgi_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "5a5eaddc1e3bf6a84e8eba66092dcbd2": {
+        "name": "qibo_CMS_V7_job.php_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1b82b58ba1edc290eebd106f0207b389": {
+        "name": "Feishimei_Video_system_Struts2_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "cf7f956de5ded1566779677b839450a9": {
+        "name": "Landray_OA_treexml_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "fc2d48fc307c6072e56bc3133ba454b5": {
+        "name": "wanhu_OA_download_ftp.jsp_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1bc1bc875c1480a0270fa3e4269f4dd9": {
+        "name": "WordPress_All_in_One_Video_Gallery_file_read_CVE_2022_2633.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "b4b325a5ba71f3e96215f99f7b625c2e": {
+        "name": "Kyan_Network_Monitoring_Device_run.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "95062281045dabcd60259aeb2702039a": {
+        "name": "abiz_Smart_importhtml.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "f035bf57db6d8028cd9571f185f919f2": {
+        "name": "CJ_CRM_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "397f386e4817406802227f3aec8cda49": {
+        "name": "MSA_Internet_Management_Gateway_msa_Arbitrary_File_Download.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "06bc1f3e342fe09229a35449ad8d728f": {
+        "name": "jinhe_OA_C6_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "d3dee7faba0c97a8fa7c2438108f3961": {
+        "name": "H3C_SecPath_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3e33b006723b85e42ffc93bed073f3c3": {
+        "name": "tide_ClusterEngineV4_sysShell_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ca6213bd6ce11582174ac166b0605df6": {
+        "name": "Grafana_plugins_file_read_CVE_2021_43798.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0ad3a973c3c94281e10e1edd25cdb9b9": {
+        "name": "ZZZCMS_parserSearch_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "f407508c9eb11a57e60cf74674d7698b": {
+        "name": "Apache_Druid_LoadData_file_read_CVE_2021_36749.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "38398a3e7eee78422f7b413c3c314501": {
+        "name": "D_Link_DAP_2020_webproc_file_read_CVE_2021_27250.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "cd2743d16e6541cd935352764168b3f3": {
+        "name": "SANGFOR_AD_Account_password_disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "4e1a2777cf04183e60300e0e66217263": {
+        "name": "thinkphp_lang_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e910bdc52014cf8301f528203d4b54bf": {
+        "name": "shiziyu_CMS_ApiController.class.php_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c296fb68b27a86af818ead147ddf1a9d": {
+        "name": "zhiyuan_OA_ajax.do_upload_file_CNVD_2021_01627.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7fb7362533c1a09485573297e10c2f38": {
+        "name": "imo_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "978b0416a6cf55a19d8b7a13bd3a0ea7": {
+        "name": "Crestron_aj.html_password_disclosure_CVE_2022_23178.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "069b73c71165fe27fab57f28f6065e92": {
+        "name": "ezOFFICE_OA_smartUpload.jsp_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "d4d6b8c3d57846bfe2b58a7c56a1c8a1": {
+        "name": "TG8_FW_RCE_and_Password_Disclosure.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "18d6d97aa2460706cabce8f77ea3baf4": {
+        "name": "unidoc_SQL_Injection_CNVD_2021_41638.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ad77bf4e7dfaba21214bf7c4aceb3fc0": {
+        "name": "vesystem_NGD_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "683200bdd6dd9e103bf747ee8725b000": {
+        "name": "SolarView_rce_CVE_2022_29303.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "865e7c6446f19fe7318d56eeb34743b2": {
+        "name": "yonyou_NC_BeanShell_RCE.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "8134b20e7fe3870bf36c50dd2e0d7184": {
+        "name": "JS_V8_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0fed74a76bf01e58c7e3af4958f23b70": {
+        "name": "Centos_Web_Panel_7_Unauthenticated_Remote_Code_Execution___CVE_2022_44877.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "30f5ed9a09e8a57e97ff726fa398efb9": {
+        "name": "CxCMS_Resource.ashx_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "2f1de47838e83230b38a2544ef0a2c83": {
+        "name": "JS_v8_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ffea18f25aecd8baf59fdc93d14f08f0": {
+        "name": "Kodak_Network_Keyboard_Console_Arbitrary_File_Reading.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7353a3960f6aadce7ba4433f82f2de8b": {
+        "name": "zhiyuan_OA_A6_test.jsp_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c0a89395b03321a84ab3bfe0eb3d565e": {
+        "name": "ACTI_images_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "ab3765b53e4f597d3292d27fe9c626ac": {
+        "name": "AMTT_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c1ee9b37cbf0ed1ed36d555cdc2be0ec": {
+        "name": "D_Link_DAR_8000_importhtml.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "457e5474ca01398700d2b33a83ecbc39": {
+        "name": "Alibaba_AnyProxy_fetchBody_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e860e493206f5e709fe343f07cb54549": {
+        "name": "shiziyu_CMS_wxapp.php_file_upload.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "302d95f09cda8548d1de9664f75cf555": {
+        "name": "enjoyscm_UploadFile.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "05b4e1ec509b54ecaad23961009649e7": {
+        "name": "imo_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c1eb11ecc897706ca27ff91a965a72f8": {
+        "name": "ezOFFICE_OA_OfficeServer.jsp_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "e401e400365dad890c0e1dfef67156d3": {
+        "name": "SANGFOR_Behavioral_Awareness_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0f6224d885f7c67a5779b3583b592a26": {
+        "name": "Kyan_Network_Monitoring_Device_module.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "30d1285a67fb659bcb73719fc18c764a": {
+        "name": "TVT_NVMS_1000_dir_list.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "7348aadb4c406651a114d066b66873e6": {
+        "name": "jizhi_CMS_alipay_return_pay_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "245f560ee1f65b0de24475126145f40a": {
+        "name": "D_Link_Dir_645_getcfg.php_password_disclosure_CVE_2019_17506.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "1819e3af5b7e4b9fdb355a747299c0b7": {
+        "name": "zhiyuan_OA_A6_config.jsp_Information_leakage.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "87779be4fedccee84fd65f6eed7d7ba2": {
+        "name": "GLPI_htmLawedTest.php_rce_CVE_2022_35914.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "80bbf603aa77968b61f45f90c9ebffbb": {
+        "name": "Sanhui_SMG_gateway_management_software_arbitrary_file_reading.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "8b0ef4349971457db2b44ce4a805ec07": {
+        "name": "LotWan_check_instance_state.php_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "359b7510c199c8aad57f053278a1ce6b": {
+        "name": "tongda_OA_v11.6_insert_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "f32b993fffec90346a15905eed3965a6": {
+        "name": "Fhem_FileLog_logWrapper_file_read_CVE_2020_19360.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "87fc9e76f671635a9fa5d84cdc54a631": {
+        "name": "ThinkPHP_5.0.1_Remote_Code_Execution.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "0ab613fe27b2eb2a5bf3dbbcdf19b46d": {
+        "name": "Casbin_get_users.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "3e5bed40db93b9f9e4687187b703c9ac": {
+        "name": "Alibaba_Nacos_Default_password.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "747823bd70c0e2fda90f05630a267604": {
+        "name": "WordPress_Simple_File_List_file_read_CVE_2022_1119.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "9226e325e1fa2d544258dcbea07fc709": {
+        "name": "ezOFFICE_OA_fileUpload.controller_upload_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a6ca8cf44434e76fe029eac03691cb1b": {
+        "name": "TamronOS_IPTV_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "744145b6a9f0c1bdca45f6502e7bd125": {
+        "name": "thinkphp3_rce.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "46f05c04a032a303e934be1d9716f4f2": {
+        "name": "dahua_Urban_security_monitoring_system_attachment_downloadByUrlAtt.action_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "5a541c64159bec3f3fe83d37048320ef": {
+        "name": "e_cology9_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "6eb38273670ab90cfc86bff89905da5e": {
+        "name": "FLIR_AX8_download.php_download_file.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "13839bd1d517ac407f909cccb1af0747": {
+        "name": "Weaver_OA_XmlRpcServlet_file_read.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "15c827ffec9a13f21618184a6f6fc689": {
+        "name": "qilai_OA_treelist.aspx_SQL_injection.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "c05d52f9c2a7b0105227b92689ab41f3": {
+        "name": "JD_download_file_CNVD_2021_57336.go",
+        "from": "https://github.com/qingchenhh/qc_poc",
+        "up_time": "2023-04-04 05:10:07"
+    },
+    "a95b89986a79c91a7f59d9d75ec942ac": {
         "name": "VMWare_Operations_vRealize_Operations_Manager_API_SSRF_CVE_2021_21975.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "c07ba5da657d52f1ee2bf6104750c3f4": {
-        "name": "Active_UC_index.action_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "9e734128624dc8dd76a46831a7e9721a": {
-        "name": "Lanproxy_Directory_traversal_CVE_2021_3019.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "f01ced36d8b3caefb829354bd6fd7fc1": {
+    "434ec564211e33791d5e1961f1b3ebb8": {
         "name": "SonarQube_unauth_CVE_2020_27986.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "513fef84b397b9714253b3b368179e20": {
+    "c22a7eded164de18b9b08b1073c24a48": {
         "name": "DedeCMS_Carbuyaction_FileInclude.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "4d77792cc7287d63774faee7f1395bef": {
+    "9ab5251e9bd107631260838907f894be": {
         "name": "ClickHouse_SQLI.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "85c8494e7b893bc0b65badffbc549556": {
+    "79733cc4aef1d73f095647ddd6902224": {
         "name": "Aspcms_Backend_Leak.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "bdd884a8409510102c311e67bf8fbf35": {
+    "b5a392b27a98471d7a85fceb83f8c2bb": {
         "name": "Alibaba_Nacos_Default_password.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "1386b44e85f2afe55acb33cdc6dd26e5": {
-        "name": "Jitong_EWEBS_phpinfo_leak.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "ddaeaa89570178bc8ac021dee5c446a2": {
-        "name": "OpenSNS_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "937d584fb24d1ab86aea5cfbe2300af8": {
+    "9d9add12c6a10caa7b95737ddc272dad": {
         "name": "Alibaba_Nacos_Add_user_not_authorized.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "41237e0d7696201d59664dd219abd3cb": {
-        "name": "IceWarp_WebClient_basic_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "fed516d8fa1974abb4ac2f1fd3d80800": {
+    "b3c4ed50cda74c9f027bd85463dc5986": {
         "name": "Consul_Rexec_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "96d085787d489b574554b16d4faa9882": {
+    "cd7c79c4a8f5954dfc9b94e5572cf7a8": {
         "name": "Discuz_v72_SQLI.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "5862dcc3f7516a20a57490e6fa4d7690": {
-        "name": "Atlassian_Confluence_OGNL_injection_CVE_2021_26084.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "c667250e8ec2a946aaaee7879a88a541": {
+    "8f0b5dc58420ec1e6bf9d5eebb198546": {
         "name": "360_TianQing_ccid_SQL_injectable.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "1114c43aff54e07c9c7bc5511f86a154": {
-        "name": "GitLab_SSRF_CVE_2021_22214.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "566c622e106572be52c49ea3fc279874": {
+    "4e566c87e02a8d2eae142e7f2c57e962": {
         "name": "Discuz_Wechat_Plugins_Unauth.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "68ba57a4bd670c0c42c35d21e4f5dc26": {
-        "name": "IRDM4000_Smart_station_Unauthorized_access.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "d6bad5f70686858fd05c9e312dfabdb6": {
+    "bdd6387e6ebfdc1d155e0d80a4afe068": {
         "name": "Apache_Kylin_Unauthorized_configuration_disclosure.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "f4b060111ff19956236844be0e0d0eef": {
+    "87a7cd5e962fbfbaf8d239ba4471ba25": {
         "name": "YAPI_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "cd97b511ed98de73cc7b9c89e9f48218": {
-        "name": "H3C_IMC_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "d50c1b89c61b3b68b5d1181a6841af52": {
+    "e4a9fa38a80c8efb2728562e7f347ba5": {
         "name": "Fastmeeting_Arbitrary_File_Read.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "55ad80db239956a843223438a850ac04": {
+    "cac943f12f9ed2f205014ff87fbbc35b": {
         "name": "VENGD_Arbitrary_File_Upload.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "5fcf6c18ba2d72c0c7ae722c9e76a517": {
+    "63e384aaef52dc2beac087d21740d2ea": {
         "name": "FineReport_v9_Arbitrary_File_Overwrite.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "919d80e8c84e30fd9638679cdee90caa": {
-        "name": "fahuo100_sql_injection_CNVD_2021_30193.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
-    },
-    "8b236a6f58657465085590d4b5c1e244": {
+    "4181aeaee11b9ea93856a49a8e0159be": {
         "name": "Cacti_Weathermap_File_Write.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "fcbf0d616b0057f605aec56bedf7f368": {
+    "33322c6293c00e0177f01ac3889dd0e9": {
         "name": "Security_Devices_Hardcoded_Password.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "01f0fb1ab3f35ddf53969011a3553c07": {
+    "2f341afe61cba3b5b2104d60e41083b2": {
         "name": "RuoYi_Druid_Unauthorized_access.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "9f64f2d8bf3a124e1ebf2d4395870ca0": {
+    "12dc028570c676ed6304d2b56f219c1e": {
         "name": "Docker_Registry_API_Unauth.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "1afa191a8421b3c5bc7c4da97b6235bc": {
+    "b1ae8cb2f529f5eee60bf5c30d1e2df0": {
         "name": "360_Tianqing_database_information_disclosure.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "db406159976a18c09450d5e134706387": {
+    "465626f5ffd33c92d2b540083c0fc479": {
         "name": "Samsung_WLAN_AP_WEA453e_RCE.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "52266baa33db1cf175f371903e5a1aa9": {
+    "534f7819797de150b1c0411dd4a2c869": {
         "name": "Datang_AC_Default_Password.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "3b1db00d2d2247346b3f1d417569b8ce": {
+    "5b6f0bfa4927b535a749e3d7f76faca4": {
         "name": "VMware_vCenter_v7.0.2_Arbitrary_File_Read.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "0adbc3de8b02a58343f6a3fc5eabda45": {
+    "cae0710ea595f0910a36af1981e6e296": {
         "name": "Discuz_RCE_WOOYUN_2010_080723.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "00e57ee9b2dd0e50d2d41464d79b05f1": {
+    "ec3a00491923a14f6cb1d9d44c09c6ac": {
         "name": "Apache_Airflow_Unauthorized.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "4c4cbf98683b8bfadc80ee4231dbb779": {
+    "0b8fcbde235a2adad1aff3dc1080467e": {
         "name": "Weaver_OA_8_SQL_injection.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "5a1f57f97b1337ac13f038768b9c46e5": {
+    "50b9e8e21d6f76d37b80f189ed8664d1": {
         "name": "alibaba_canal_default_password.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "c53bd0683e3ae4a6181040f5952445dd": {
+    "eccacf2cea1bb6a40088b1f9e43fe595": {
         "name": "Apache_Kylin_Console_Default_password.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     },
-    "8211bdcd16f68a1fb2549e5df9e4f3c7": {
+    "63e7fcd14c98d13658565ac3aa5126f0": {
         "name": "Konga_Default_JWT_KEY.json",
-        "from": "https://github.com/wzqawp/lal0ne-HW",
-        "up_time": "2023-04-03 05:12:38"
+        "from": "https://github.com/cqr-cryeye-forks/goby-pocs",
+        "up_time": "2023-04-04 05:10:08"
     }
 }
