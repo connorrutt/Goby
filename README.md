@@ -1,6 +1,6 @@
-## goby poc (共1112个) 最近一次检查时间 2023-05-14 05:10:55
-### 收集记录
-| 文件名称 | 收录时间 |
+## goby poc (of 1112) Last checked 2023-05-14 05:10:55
+### Collecting records
+| File name | Collection time |
 | :----| :---- |
 | [Samsung_WLAN_AP_WEA453e_RCE.json](https://github.com/hanc00l/pocGoby2Xray) | 2023-05-14 05:10:19 |
 | [DedeCMS_Carbuyaction_FileInclude.json](https://github.com/hanc00l/pocGoby2Xray) | 2023-05-14 05:10:19 |
